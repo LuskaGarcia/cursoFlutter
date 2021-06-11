@@ -26,7 +26,7 @@ class HomePageState extends State<HomePage> {
       body:  Container(
         width: double.infinity,
         height: double.infinity,
-        child: Column(
+        child: Column( //listview pra se eu querer scrollar para o lado
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("Contador: $counter"),
