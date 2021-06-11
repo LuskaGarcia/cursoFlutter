@@ -48,9 +48,7 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(height: 15),
               ElevatedButton(onPressed: () {
                 if(email == 'lucas@lucas.com' && password == '123'){
-                  Navigator.of(context).push( //PODE COLOCAR PUSHREPLACEMENT
-                    MaterialPageRoute(builder: (context) => HomePage()),
-                  );
+                  Navigator.of(context).pushReplacementNamed('/home');
                 } else{
                   print('Incorreto');
                 }
