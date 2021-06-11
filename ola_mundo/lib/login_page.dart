@@ -24,6 +24,14 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+
+              Container(
+                width: 100,
+                height: 100,
+                child: Image.network(
+                  'https://www.imagenspng.com.br/wp-content/uploads/2020/10/among-us-black-png-01.png'),
+              ),
+              Container(height: 50),
               TextField(
                 onChanged: (text){
                   email = text;
