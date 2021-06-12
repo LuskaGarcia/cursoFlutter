@@ -28,8 +28,7 @@ class _LoginPageState extends State<LoginPage> {
               Container(
                 width: 100,
                 height: 100,
-                child: Image.network(
-                  'https://www.imagenspng.com.br/wp-content/uploads/2020/10/among-us-black-png-01.png'),
+                child: Image.asset('assets/images/SUS.png'),
               ),
               Container(height: 50),
               TextField(
